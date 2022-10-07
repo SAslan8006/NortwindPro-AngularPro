@@ -2,8 +2,6 @@
 
 ### :gear: **Installation** 
 
-##### _Manual_
-
 1. Download all of the project files.
 2. Open folder with terminal => ng install 
 3. terminal => ng serve 
