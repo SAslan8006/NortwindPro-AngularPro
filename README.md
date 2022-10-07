@@ -1,38 +1,15 @@
 Nortwind Projesi | Front-End
 
-📌Başlangıç
+### :gear: **Installation** 
 
-Projeyi indirip ng install yapınız
+##### _Manual_
 
-Angular ve Bootstrap v5.0 Kullanılarak Hazırlanmıştır
+1. Download all of the project files.
+2. Open folder with terminal => ng install 
+3. terminal => ng serve 
 
-İlgili Klasörler
 
-•	Component : HTML, Typescript ve CSS dosyalarını içerir. Typescript dosyaları genel olarak ilgili componentin servisini kullanılır.
-
-•	Services : API ile bağlantının sağlandığı kısımdır. Gerekli metotlar serviste yazıldıktan sonra Component tarafında kullanıma alınarak(Implementation) karmaşa önlenmiş olur.
-
-•	Models : API'dan gelen veriler Front-End'de bir interface içerisinde özellik olarak tutulur ve Component tarafında kullanıcıya gösterilir.
-
-•	Pipes : Eğer elimizde bir veri varsa ve bu veriyi farklı şekilde kullanmak istiyorsak pipe'lar kullanılabilir (Örneğin: Bir fiyat verisi varsa ve o fiyata KDV eklenecek ise pipe kullanılabilir.)
-
-•	Kullanılan teknolojiler: 
-
-o	Angular -v12.2.4
-
-o	Bootstrap 5
-
-o	Bootstrap icons
-
-o	ngx-spinner
-
-o	toastr
-
-Nortwind Project | Front-End
-
-Made using Angular and Bootstrap v5.0
-
-Related Folders
+### :open_file_folder: **Related Folders**
 
 •	Component : Includes HTML,Typesript and CSS files. The Typescript files generally use related component service.
 
@@ -42,7 +19,7 @@ Related Folders
 
 •	Pipes : If we have a data and we want using data differently can use the pipe.(For Example: If we have a price data and want add vat this price, we can use pipe)
 
-•	Kullanılan teknolojiler: 
+### :computer: **Technologies** 
 
 o	Angular -v12.2.4
 
@@ -50,8 +27,16 @@ o	Bootstrap 5
 
 o	Bootstrap icons
 
-o	ngx-spinner
+o	Ngx-spinner Service
 
-o	toastr
+o	Toastr Service
+
+### :floppy_disk: **Application Pictures**
+
+![image](https://user-images.githubusercontent.com/109723263/194554125-91faeebb-1c34-4da6-b06f-740fe3d11ffb.png)
+![image](https://user-images.githubusercontent.com/109723263/194554879-69a0f67f-81fc-4470-a844-2db8f70469e5.png)
+![image](https://user-images.githubusercontent.com/109723263/194554894-1cad7311-241e-4281-a75b-d5e02c9477b9.png)
+![image](https://user-images.githubusercontent.com/109723263/194554919-2a1663a9-0633-4307-89e9-7a449462d316.png)
+![image](https://user-images.githubusercontent.com/109723263/194554954-d84fa322-e759-4872-a91b-a765af37f650.png)
 
 
