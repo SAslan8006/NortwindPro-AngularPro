@@ -1,27 +1,57 @@
-# Nortwind
+Nortwind Projesi | Front-End
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+📌Başlangıç
 
-## Development server
+Projeyi indirip ng install yapınız
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Angular ve Bootstrap v5.0 Kullanılarak Hazırlanmıştır
 
-## Code scaffolding
+İlgili Klasörler
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+•	Component : HTML, Typescript ve CSS dosyalarını içerir. Typescript dosyaları genel olarak ilgili componentin servisini kullanılır.
 
-## Build
+•	Services : API ile bağlantının sağlandığı kısımdır. Gerekli metotlar serviste yazıldıktan sonra Component tarafında kullanıma alınarak(Implementation) karmaşa önlenmiş olur.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+•	Models : API'dan gelen veriler Front-End'de bir interface içerisinde özellik olarak tutulur ve Component tarafında kullanıcıya gösterilir.
 
-## Running unit tests
+•	Pipes : Eğer elimizde bir veri varsa ve bu veriyi farklı şekilde kullanmak istiyorsak pipe'lar kullanılabilir (Örneğin: Bir fiyat verisi varsa ve o fiyata KDV eklenecek ise pipe kullanılabilir.)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+•	Kullanılan teknolojiler: 
 
-## Running end-to-end tests
+o	Angular -v12.2.4
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+o	Bootstrap 5
 
-## Further help
+o	Bootstrap icons
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+o	ngx-spinner
+
+o	toastr
+
+Nortwind Project | Front-End
+
+Made using Angular and Bootstrap v5.0
+
+Related Folders
+
+•	Component : Includes HTML,Typesript and CSS files. The Typescript files generally use related component service.
+
+•	Services : It is the part the connection with the API is provided.Confusion is avoided by implementation service in Component after write the necessary method.
+
+•	Models : Data from the API is kept as a property from an interface on the Front-End and displayed to user in Component
+
+•	Pipes : If we have a data and we want using data differently can use the pipe.(For Example: If we have a price data and want add vat this price, we can use pipe)
+
+•	Kullanılan teknolojiler: 
+
+o	Angular -v12.2.4
+
+o	Bootstrap 5
+
+o	Bootstrap icons
+
+o	ngx-spinner
+
+o	toastr
+
+
